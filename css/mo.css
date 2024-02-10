@@ -1697,7 +1697,7 @@ header .container .mega ul li a i
     font-size: 30px;
     font-weight: 900;
     border-bottom: inherit;
-    .events .container .middle .clock .time
+
 }
 
 .events .container .middle .clock .time span:last-child
@@ -1705,6 +1705,26 @@ header .container .mega ul li a i
     font-size: 12px;
     padding: 8px 5px;
 
+}
+
+@media (max-width:768px)
+{
+    .events .container .middle .clock .time
+    {
+        width: 50px;
+    }
+
+    .events .container .middle .clock .time span:first-child
+    {
+        font-size: 20px;
+    }
+
+    .events .container .middle .clock .time span:last-child
+    {
+        font-size: 10px;
+
+
+    }
 }
 
 .events .container .middle .event .text
